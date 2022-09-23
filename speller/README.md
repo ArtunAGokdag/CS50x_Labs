@@ -1,30 +1,16 @@
-A program that spell-checks a file using a hash table.
+## Speller
+A program that spell-checks a text file with a given dictionary using a hash table.
 
-**Usage:**
-./speller texts/sample.txt (default dictionary)
+<br>
 
-MISSPELLED WORDS
+##### Usage
+`$ ./speller <dictionary> <texts/sample.txt> `
 
-[...]
-AHHHHHHHHHHHHHHHHHHHHHHHHHHHT
-[...]
-Shangri
-[...]
-fianc
-[...]
-Sebastian's
-[...]
 
-WORDS MISSPELLED:
-WORDS IN DICTIONARY:
-WORDS IN TEXT:
-TIME IN load:
-TIME IN check:
-TIME IN size:
-TIME IN unload:
-TIME IN TOTAL:
 
+<br>
 The problem consists of implemenation of funcions:
+
 
 - load
     - loads words from dictionary o memory usin a hash table

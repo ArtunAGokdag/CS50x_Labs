@@ -13,4 +13,4 @@ blurs an image using box blur
 edge detecion algorihm using Sobel filters
 
 ###### Usage
-./filter [flag] infile outfile
+`$ ./filter [flag] infile outfile`
